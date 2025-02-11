@@ -1,0 +1,17 @@
+# Program to calculate age in days, months, and hours
+def calculate_age():
+    # Ask user for their age in years
+    age_years = int(input("Enter your age in years: "))
+
+    # Perform calculations
+    age_days = age_years * 365  # Assuming 365 days per year
+    age_months = age_years * 12  # Assuming 12 months per year
+    age_hours = age_days * 24  # Assuming 24 hours per day
+
+    # Print the results
+    print(f"You are approximately {age_days} days old.")
+    print(f"You are approximately {age_months} months old.")
+    print(f"You are approximately {age_hours} hours old.")
+
+# Call the function to run the program
+calculate_age()
